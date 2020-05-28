@@ -1,0 +1,31 @@
+body{
+    background-color: 	#0e1a40;
+    color: #ffe6b9;
+    text-align: center;
+}
+h1{
+    font-size: 5em;
+}
+h2{
+    font-size: 2em;
+}
+i{    font-size: 2em;
+    animation-name: load;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #265b7a;
+}
+::-webkit-scrollbar-thumb{
+    background: #ffe6b9;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #fbbf96;
+}
