@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: 	#1d1e22;
+    background-image: linear-gradient(to right,#1d1e22 ,#393f4d);
+    color: white;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color:#393f4d;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #f5d3c5;
+    color: black;
+}
+  
+  .topnav a.active {
+    background-color: #ffe6b9;
+    color:	black;
+}
+
+.hi{
+      margin-left: 80px;
+      font-family: 'Comfortaa', cursive;
+      margin-top: 60px;
+      font-size: 9em;
+      margin-bottom: 10px;
+      width: 50%;
+  }
+.me {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: flex-start;
+    margin-right: 75px;
+    float: right;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%; //centers the image
+  height: 100%;
+  width: auto;
+}
+img{
+    float: right;
+    align-items: center;
+    vertical-align: top;
+}
+.intro{
+    margin-top: 0em;
+    font-family: 'Comfortaa', cursive;
+    margin-left: 70px;
+    font-size: 2em;
+    width: 50%;
+}
+.dark{
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #265b7a;
+}
+::-webkit-scrollbar-thumb{
+    background: #ffe6b9;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #fbbf96;
+}

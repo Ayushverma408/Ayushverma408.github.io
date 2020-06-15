@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    font-size: 5em;
+}
+.cursive{
+    font-family: 'Dancing Script', cursive;
+    color: #ffe6b9;
+}
+h2{
+    text-align: center;
+    font-size: 4em;
+    color: #f2f2f2
+}
+i{
+    padding: 1.5em;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: 	#1d1e22;
+    background-image: linear-gradient(to right,#1d1e22 ,#393f4d);
+    color: rgb(192, 190, 190);
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color:#393f4d;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #f5d3c5;
+    color: black;
+}
+  
+  .topnav a.active {
+    background-color: #ffe6b9;
+    color:	black;
+}
+  
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #265b7a;
+}
+::-webkit-scrollbar-thumb{
+    background: #ffe6b9;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #fbbf96;
+}
